@@ -1,0 +1,10 @@
+version: 2
+updates:
+  - package_ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+  - package_ecosystem: "github-actions"
+    directory: ".github/workflows"
+    schedule:
+      interval: "weekly"
